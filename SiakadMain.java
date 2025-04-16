@@ -7,7 +7,7 @@ class Mahasiswa {
         this.nim = nim;
         this.nama = nama;
     }
-}
+} 
 
 class MataKuliah {
     String kode, namaMK;
@@ -45,6 +45,7 @@ public class SiakadMain {
         new Penilaian(new Mahasiswa("22003", "Citra Dewi"), new MataKuliah("MK003", "Desain Web"), 80, 90, 65)
     };
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int pilihan;
