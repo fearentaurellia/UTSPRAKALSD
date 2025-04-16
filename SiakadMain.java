@@ -29,6 +29,7 @@ class Penilaian {
         this.tugas = tugas;
         this.uts = uts;
         this.uas = uas;
+        nilaiAkhir();
     }
 
     double nilaiAkhir() {
