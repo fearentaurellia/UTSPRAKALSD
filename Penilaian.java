@@ -21,6 +21,6 @@ public class Penilaian {
 
     public void tampilPenilaian() {
         System.out.println(mahasiswa.nama + " | " + mataKuliah.namaMK + " | Nilai Akhir: " + nilaiAkhir);
-    }
-    
+    }
+    
 }
